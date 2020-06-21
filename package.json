@@ -44,6 +44,7 @@
     "*.{js,css,scss,html}": "prettier --write"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "fetch-mock": "^9.10.1"
   }
 }

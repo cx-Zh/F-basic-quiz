@@ -1,7 +1,7 @@
 import "./style/index.scss";
 import { GetEducationInfo } from "./app_support";
 
-function GetUserInfo() {
+export function GetUserInfo() {
   const getId = () => {
     const urlRegex = /^(?:http:\/\/localhost:1234\/users\/)(\d+)$/;
     const match = window.location.href.match(urlRegex);
